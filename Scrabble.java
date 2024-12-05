@@ -136,7 +136,7 @@ public class Scrabble {
 					System.out.println("Invalid word. Try again.");
 				} else {
 					score += wordScore(input);
-					System.out.printf("%s earned %d points. Score: %d points\n",
+					System.out.printf("%s earned %d points. Score: %d points",
 							input, wordScore(input), score);
 					hand = MyString.remove(hand, input);
 					if (hand.isEmpty()) {
